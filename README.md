@@ -15,4 +15,4 @@ Only want to run a sample?
 ```
 CUDA_VISIBLE_DEVICES=0 python demo.py experiments/seg_detector/td500_resnet18_deform_thre.yaml --image_path test/sample_1.jpg --resume weights/final --box_thresh 0.6
 ```
-Final watch your results in demo_result folder
+Finally watch your results in demo_result folder
